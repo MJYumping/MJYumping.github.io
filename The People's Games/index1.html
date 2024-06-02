@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - TPG</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- IMPORTING "BARLOW" GOOGLE FONT  -->
+
+    <!-- CONNECTING EXTERNAL CSS -->
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+    
+    <!-- HEADER PRESENT IN ALL PAGES OF THE WEBSITE -->
+    <header>    
+        <!-- Logo img and website title inside anchor tags to create a "back to home button" -->
+        <a href="index1.html"><img id="TPGlogo" src="logo.png" alt="tpg logo"></a> 
+        <a href="index1.html"><h1>The People's Games</h1></a>
+
+
+
+        <!-- nav is nested within header for a compact design (header banner is present in all web pages) -->
+        <nav>  
+            <ul>
+                <li><a  href="index2.html">News</a></li> <!-- index2 = news page -->
+
+                <li><a  href="index3.html">Featured</a></li> <!-- index3 = featured games page  -->
+
+                <li><a  href="index4.html">About Us</a></li> <!-- index4 = about us page -->
+
+                <li><a  href="index5.html">Contact Us</a></li> <!-- index5 = contact us page -->
+                
+                <li><a  href="index6.html">Subscribe</a></li> <!-- index6 = subscribe to articles |  index7 is form submitted page --> 
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <main> <!-- main tag to indicate start and end of main website content -->
+
+
+        <!-- introductory title and image -->
+        <div class="underbanner">
+            <div class="titlebox">
+                <h2>The People's Games</h2>
+    
+                <h3> Highlighting people making and playing games.</h3>
+            </div>
+    
+            <div class="gallery">
+                <img src="gamecollage.webp" alt="image" class="galleryimg">
+            </div>
+        </div>
+
+
+
+        <!-- auto scrolling horizontal banner for news headlines style -->
+        <div id='headlines1'>
+            <div class='scroll' id='scrollone'>
+                <div class='item'> <a href="https://thegameawards.com/nominees/game-of-the-year" target="_blank">Baldur's Gate Wins Game of the Year [2023]</a></div>
+                <div class='item'> <a href="https://thegameawards.com/" target="_blank">Game Awards [2023] Results</a></div>
+                <div class='item'> <a href="https://www.rockstargames.com/videos/666666" target="_blank">Rockstar Releases Grand Theft Auto VI Trailer</a></div>
+                <div class='item'> <a href="https://www.rocketleague.com/en/news/removing-playertoplayer-trading-in-december" target="_blank">Rocket League Trading Removed</a></div>
+                <div class='item'> <a href="https://www.dubaiesportsfestival.com/en/home" target="_blank">Dubai Esports Festival Master Cup and Other Results</a></div>
+                <div class='item'> <a href="https://playvalorant.com/en-us/agents/clove/" target="_blank">New Valorant Agent "Clove"</a></div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Section: premise of the website with supporting image -->
+        <section class="premisesection">
+            <div class="xraydiv">
+                <img src="xraygame.webp" alt="xray controller">
+            </div>
+
+            <div class="premisecaption">
+                <h3>
+                    At TPG, we aim to highlight not just games, but the people behind them. The video game industry includes many amazing personalities, from the programmers working behind the keyboard, to the actors who give life to 3D models. TPG aims to perfom honest investigative reporting for the good of the people.
+                </h3>
+            </div>
+        </section>
+
+        
+
+
+        <!-- Featured Section with button to direct user to other page. Contains autoplaying on loop on video -->
+        <section class="featuredgames">
+
+            <div class="featcaption">
+                <h2>
+                    Featured Games
+                </h2>
+
+                <p>
+                    We at TPG want to showcase games made by ethical developers and with a meaningful experience.
+                </p>
+
+                <a href="index3.html">
+                    <button class="featuredbutton">CHECK IT OUT</button>
+                </a>
+            </div>
+
+            <div class="videodiv">
+                <video src="footage.mp4" autoplay height="550px" loop muted >Unable to load video</video>
+            </div>
+            
+        </section>
+
+
+
+
+
+        <!-- History section for a timeline list of significant events in video game development -->
+        <section class="history">
+
+            <div class="historylist">
+                <h2>History of Video Game Development</h2>
+                <ul>
+                    <li>Physicist William Higinbotham creates Tennis for Two</li>
+                    <li>Magnavox creates the Magnavox Odyssey with early games such as table tennis</li>
+                    <li>Snake released alongside Nokia 6110 cellphone as the one of the first mobile video games</li>
+                    <li>Virtual Boy is released by Nintendo, creating the first virtual reality console</li>
+                    <li>Minecraft is created by Markus Persson starting the development of the biggest games in the industry</li>
+                </ul>
+            </div>
+
+            <div class="historyimg">
+                <img src="time.png" alt="timeline">
+            </div>
+
+        </section>
+
+
+
+
+    </main>    <!-- END OF MAIN CONTENT -->
+
+
+    <!-- FOOTER TAG TO INDICATE END OF MAIN CONTENT AND START OF FOOTER INFO -->
+    <footer>
+        <img src="logo.png" alt="" class="logofooter">
+
+        <div class="copyright">
+            The People's Games aim to highlight the people behind video games. We strive to keep TPG a constantly updating hub for your gaming news needs. Please consider visiting our social media channels to keep updated by TPG in other platforms. 
+        </div>
+    </footer>
+    
+</body>
+</html>

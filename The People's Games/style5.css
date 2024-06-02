@@ -1,0 +1,218 @@
+body {
+    font-family: "Barlow", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(staff.png);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+
+.gradientdivide {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, black, rgb(59, 59, 59), white);
+}
+
+
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+
+
+
+form {
+  /* border: solid red 1px; */
+  display: flex;
+  flex-direction: column;
+
+  width: 28%;
+  height: 500px;
+  margin: auto auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+
+  background-color: white;
+  box-shadow: 0px 7px 29px -6px rgba(0,0,0,0.75);
+}
+
+
+.formheader {
+}
+
+form h2 {
+  text-align: center;
+}
+
+.inputdiv {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input {
+  height: 40px;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 10px;
+  border-radius: 3px;
+
+  padding-left: 10px;
+}
+
+#message {
+  height: 100px;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+  
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+#message::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+}
+
+input::placeholder {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+
+  position: absolute;
+  left: 10px; 
+}
+
+
+
+
+
+
+
+.buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;margin-top: 7px;
+}
+
+.buttons button {
+  background-color: black;
+  color: white;font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 2px;
+  width: fit-content;
+  height: 40px;
+}
+
+.reset {
+  margin-right: 5px;
+}
+
+.reset img {
+  padding-top: 2.5px;
+  width: 30px;
+  height: 30px;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}

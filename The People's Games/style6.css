@@ -1,0 +1,197 @@
+body {
+  background-image: url(collagegames.png);
+  font-family: "Barlow", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+
+
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+  
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+
+form {
+  /* border: solid red 1px; */
+  display: flex;
+  flex-direction: column;
+
+  width: 28%;
+  height: 500px;
+  margin: auto auto;
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  background-color: white;
+  box-shadow: 0px 7px 29px -6px rgba(0,0,0,0.75);
+}
+
+
+.formheader {
+  background-color: black;
+  color: white;
+}
+
+form h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+.inputdiv {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* label {
+  font-weight: 700;
+  font-size: 20px;
+} */
+
+input {
+  margin-bottom: 50px;
+  padding: 15px;
+  
+  border: none;
+  background-color: rgb(216, 216, 216);
+  border-radius: 5px;
+
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  font-size: 23px;
+  color: rgb(90, 90, 90);
+}
+
+input::placeholder {
+  color: rgb(90, 90, 90);
+}
+
+
+
+
+
+.buttons {
+  display: flex;
+  margin-left: 85px;
+  margin-right: auto;
+}
+
+.buttons button {
+  background-color: black;
+  color: white;font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 3px;
+  width: fit-content;
+  height: 40px;
+}
+
+.reset {
+  margin-right: 5px;
+}
+
+.reset img {
+  padding-top: 2.5px;
+  width: 30px;
+  height: 30px;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}

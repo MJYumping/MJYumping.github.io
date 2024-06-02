@@ -1,0 +1,470 @@
+/* PLEASE SKIP TO LINE 147, THESE STYLINGS ARE SAME AS INDEX1  */
+/* PLEASE SKIP TO LINE 147, THESE STYLINGS ARE SAME AS INDEX1  */
+/* PLEASE SKIP TO LINE 147, THESE STYLINGS ARE SAME AS INDEX1  */
+
+body {
+    font-family: "Barlow", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(controllerbg.png);  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+
+newsa a:visited {
+  /* color: pink; */
+}
+
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.underbanner {
+  position: relative;
+}
+
+#bannerpic {
+  width: 100%; 
+  height: 300px;  
+  object-fit: cover;
+  filter: brightness(50%);
+} 
+
+.newstitle{
+  position: absolute;
+  background-color: black;
+  top: 71%;
+  left: 300px;
+  padding: 0px 70px;
+}
+
+.newstitle h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+#headlines1 {
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  top: 42.3%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+}
+
+#headlines1 .scroll {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  /* position: fixed; */
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 20s linear infinite;
+}
+
+@keyframes loop {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
+}
+
+#container .scroll#scroll-two {
+  transform: translateX(100%);
+  animation-delay: 0s; 
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #ffffff;
+  font-size: .9rem;
+  background-color: #000000;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+  border-right: solid #ffffff 1px;
+}
+
+.item a{
+  text-decoration: none;
+  color: white;
+}
+
+/* /\ SAME ON EACH PAGE /\ */
+/* /\ SAME ON EACH PAGE /\ */
+
+
+
+h3 {
+  text-align: center;
+  width: 69%;
+  margin-top: 80px;
+  max-width: fit-content;
+  background-color: rgb(255, 255, 255);
+  border: solid black 2px;
+  color: black;
+
+  padding: 20px 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/* NEWS SECTIONS GENERAL STYLING */
+.newsblock {
+  /* border: solid red 1px; */
+  margin: 50px 300px 0px 300px;
+  display: flex;
+  height: 312px;
+  box-shadow: 0px 10px 12px 6px rgba(181,181,181,1);
+  background-color: white;
+}
+
+.newsa a {
+  text-decoration: none;
+}
+/* NEWS SECTIONS STYLING */
+
+
+
+
+
+
+
+
+/* NEWS 1 SECTION STYLING */
+.news1pic {
+  flex: 1;
+}
+
+.news1pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news1caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news1caption p {
+  font-size: 17px;
+}
+/* NEWS 1 STYLING */
+
+
+
+
+
+
+/* NEWS 2 STYLING */
+.news2pic {
+  flex: 1;
+}
+
+.news2pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news2caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news2caption p {
+  font-size: 17px;
+}
+/* NEWS 2 STYLING */
+
+
+
+
+
+
+/* NEWS 3 STYLING */
+.news3pic {
+  flex: 1;
+}
+
+.news3pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news3caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news3caption p {
+  font-size: 17px;
+}
+/* NEWS 3 STYLING */
+
+
+
+
+
+
+
+
+
+
+/* STYLING TRANSITION TO MAKE EACH NEWS ARTICLE INCREASE SCALE BY 1.02 TO INDICATE ON HOVER CLICKABLE */
+.newsa {
+  transition: transform 0.3s ease;
+}
+
+.newsa section:hover {
+  transform: scale(1.02);
+}
+
+
+
+
+
+
+
+
+/* MARQUEE 2 */
+
+#headlines2 {
+  margin-top: 50px;
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+}
+
+#headlines2 .scroll {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  /* position: fixed; */
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 20s linear infinite;
+}
+
+
+
+
+
+
+.news4pic {
+  flex: 1;
+}
+
+.news4pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news4caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news4caption p {
+  font-size: 17px;
+}
+
+
+
+
+
+
+.news5pic {
+  flex: 1;
+}
+
+.news5pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news5caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news5caption p {
+  font-size: 17px;
+}
+
+
+
+
+
+
+.news6pic {
+  flex: 1;
+}
+
+.news6pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.news6caption {
+  flex: 2;
+  padding-left: 12px;
+  color: #000;
+}
+
+.news6caption p {
+  font-size: 17px;
+}
+
+#headlines3 {
+  margin-top: 50px;
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+  border-bottom: solid white 1px;
+}
+
+#headlines3 .scroll {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  /* position: fixed; */
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 20s linear infinite;
+}
+
+@keyframes loop {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
+}
+
+#container .scroll#scroll-two {
+  transform: translateX(100%);
+  animation-delay: 0s; 
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #ffffff;
+  font-size: .9rem;
+  background-color: #000000;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+  border-right: solid #ffffff 1px;
+}
+
+.item a{
+  text-decoration: none;
+  color: white;
+}
+
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}

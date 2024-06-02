@@ -1,0 +1,374 @@
+/* CALLS AND STYLING ARE ARRANGED IN ORDER OF WHERE EACH ELEMENT APPEARS */
+
+/* GENERAL BODY STYLING (ALL HEADERS IN EACH PAGES ARE IDENTICAL) */
+body {
+    font-family: "Barlow", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(controllerbg.png);
+}
+
+
+
+
+
+/* STYLING/INITIALIZING ALL ANCHORS */
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+/* STYLING/INITIALIZING ALL ANCHORS */
+
+
+
+
+
+
+
+/* STYLING FOR SCROLLING HEADLINE */
+#headlines1 {
+  width: 100%;
+  height: 3rem;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+}
+
+#headlines1 .scroll {
+  margin-top: 4px;
+  margin-bottom: 3px;
+  /* position: fixed; */
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 20s linear infinite;
+}
+
+@keyframes loop {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
+}
+
+#container .scroll#scroll-two {
+  transform: translateX(100%);
+  animation-delay: 0s; 
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #ffffff;
+  font-size: .9rem;
+  background-color: #000000;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+  border-right: solid #ffffff 1px;
+}
+
+.item a{
+  text-decoration: none;
+  color: white;
+}
+/* STYLING FOR SCROLLING HEADLINE */
+
+
+
+
+
+
+
+/* STYLING FOR HEADER/BANNER */
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.subscribe {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+/* STYLING FOR HEADER/BANNER */
+
+
+
+
+
+
+
+
+/* STYLING FOR MAIN */
+main {
+  padding: 0px;
+  margin: 0px;
+}
+/* STYLING FOR MAIN */
+
+
+
+
+
+
+
+/* FOR OPENING SECTION WITH TITLE AND GAME PICTURE */
+.underbanner {
+  /* border: solid red 1px; THESE WERE USED TO CLEARLY SEE DIV BORDERS DURING WEBSITE BUILDING */
+  display: flex;
+  padding: 0px 0px 0px 300px;
+}
+
+
+
+.titlebox {
+  flex: 1;  /* flex 1 used to make title box take less space in the flexbox */
+  height: 850px;  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0px;
+}
+
+.titlebox h2 {
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+
+.titlebox h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 250px;
+}
+
+.gallery {
+  flex: 2.5;   /* flex 2.5 to make image take more space in the flexbox */
+  background-image: url(gamecollage.webp);
+  filter: brightness(90%);
+}
+/* FOR OPENING SECTION WITH TITLE AND GAME PICTURE */
+
+
+
+
+
+
+
+
+
+/* PREMISE DIV STYLING */
+.premisesection {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.xraydiv{
+  flex: 1.6;
+  background-image: url(xraygame.webp); 
+}
+
+.premisecaption {
+  flex: 1;
+  height: 400px;
+  width: 400px;
+  max-width: fit-content;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 300px;
+  justify-content: space-between;
+}
+
+.premisecaption h3 {
+  text-align: justify;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.premisecaption button {
+  display: block;
+  margin: 0 auto;
+}
+/* PREMISE DIV STYLING */
+
+
+
+
+
+
+
+
+/* FEATURED SECTION STYLING */
+.featuredgames {
+  /* border: solid red 1px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.featcaption {
+  flex: 1;
+  margin: 10px 60px auto 300px;
+}
+
+.featcaption h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.featcaption p {
+  margin-bottom: 180px;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.videodiv {
+  flex: 1;
+}
+
+.featuredbutton {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  width: 120px;
+  height: 70px;
+}
+/* FEATURED SECTION STYLING */
+
+
+
+
+
+
+
+
+
+/* HISTORY DIV STYLING */
+.history {
+  display: flex;
+
+  background-color: black;
+  color: white;
+  padding: 50px 300px 50px 500px;
+}
+
+.historylist {
+  flex: 2;
+  width: 400px;
+  /* border: solid red 1px; */
+}
+
+.historyimg{
+  flex: 1;
+  width: 50%;
+}
+
+.historylist  h2 {
+  font-size: 40px;
+}
+
+.historylist  ul li {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+/* HISTORY DIV STYLING */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLING */
+footer {
+  border-top: solid white;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+/* FOOTER STYLING */

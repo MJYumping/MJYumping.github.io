@@ -1,0 +1,276 @@
+body {
+    font-family: "Barlow", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(controllerbg.png);  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+
+.gradientdivide {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, black, rgb(59, 59, 59), white);
+}
+
+
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.underbanner {
+  position: relative;
+}
+
+#bannerpic {
+  width: 100%; 
+  height: 300px;  
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+
+.newstitle{
+  position: absolute;
+  background-color: rgb(246, 246, 246 );
+  top: 71%;
+  left: 300px;
+  padding: 0px 70px;
+}
+
+.newstitle h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.aboutusp {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 68.7%;
+  /* border: solid red 1px; */
+}
+
+
+
+.goals {
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-bottom: 0px;
+  width: fit-content;
+  padding: 10px 20px;
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+  font-size: 30px;
+}
+
+
+
+
+
+.element1 {
+  margin:0px 300px 100px 300px;
+  display: flex;
+  height: 312px;
+  box-shadow: 0px 7px 10px 5px rgba(181,181,181,1);
+}
+
+.game {
+  flex: 1;
+}
+
+.game img {
+  width: 100%;
+  height: 100%;
+}
+
+.gamecaption {
+  flex: 2;
+  padding: 20px 0px;
+  color: #000;
+  background-color: white;
+}
+
+.gamecaption ul{
+  margin-top: 40px;
+  list-style-type: disc;
+  font-size: 20px;
+}
+
+.gamecaption ul li {
+  margin-bottom: 40px;
+}
+
+.element {
+  margin:0px 300px 20px 300px;
+  display: flex;
+  height: 312px;
+  box-shadow: 0px 4px 10px 5px rgba(181,181,181,1);
+}
+
+.collaborators   {
+  margin-top: 80px;
+  margin-left: 300px;
+  margin-bottom: 0px;
+  width: fit-content;
+  padding: 10px 20px;
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+  font-size: 30px;
+}
+
+
+.gabenpic {
+  flex: 1;
+}
+
+.gabenpic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gabecaption {
+  flex: 2;
+  padding: 20px 40px;
+  color: #000;
+  background-color: white;
+}
+
+
+.geoffpic {
+  flex: 1;
+}
+
+.geoffpic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.geoffcaption {
+  flex: 2;
+  padding: 20px 40px;
+  color: #000;
+  background-color: white;
+}
+
+
+
+
+.ralphpic {
+  flex: 1;
+}
+
+.ralphpic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.ralphcaption {
+  flex: 2;
+  padding: 20px 40px;
+  color: #000;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}

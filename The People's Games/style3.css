@@ -1,0 +1,362 @@
+/* PLEASE SKIP TO LINE 97, THESE STYLINGS ARE ALL SAME TO INDEX 1 */
+
+body {
+    font-family: "Barlow", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(controllerbg.png);  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(0, 209, 0);
+}
+
+.gradientdivide {
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(to right, black, rgb(59, 59, 59), white);
+}
+
+header {
+  background-color: black;
+  width: auto;
+  max-width: 100%;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+}
+
+#TPGlogo {
+  padding-left: 300px;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+h1 {
+  font-weight: 900;
+  padding-left: 15px;
+  color: white;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 210px;
+  float: right;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 90px;
+}
+
+nav ul {
+  display: flex;  
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.underbanner {
+  position: relative;
+}
+
+#bannerpic {
+  width: 100%; 
+  height: 300px;  
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+
+.newstitle{
+  position: absolute;
+  background-color: white;
+  top: 73%;
+  left: 300px;
+  padding: 0px 70px;
+}
+
+.newstitle h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+/* /\/\  ALL SIMILAR TO INDEX 1 STYLING /\/\ */
+
+
+
+
+
+
+
+
+
+
+
+/* SECONDARY BANNER STYLING */
+.gameheader {
+  border: solid white;
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 16px;
+}
+
+.gameheader h2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+}
+
+.gameheader p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+/* SECONDARY BANNER STYLING */
+
+
+
+
+
+
+
+
+/* NEWEST GAMES STYLING */
+.newest {
+  margin: 50px 300px 0px 300px;
+  padding-top: 13px;
+  padding-bottom: 13px;  
+  text-align: center;
+
+  background-color: black;
+  font-size: 28px;
+
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.game1 {
+  /* border: solid red 1px; */
+  display: flex;
+  width: 68.45%;
+  margin: 0px 300px 70px 300px;
+  height: 400px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.game1viddiv {
+  flex: 1;
+}
+
+.game1 video {
+  width: auto;
+  height: 400px;
+}
+
+.game1caption {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 70px;
+  font-size: 18px;
+}
+
+.game1caption h2 {
+  margin: 0px;
+}
+
+.button1 {
+  margin-bottom: 10px;
+}
+
+.button1 a {
+  text-decoration: none;
+  background-color: black;
+
+  padding: 15px;
+  border-radius: 5px;
+
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+/* NEWEST GAMES STYLING */
+
+
+
+
+
+
+
+
+/* UPCOMING GAMES STYLING */
+.upcoming {
+  margin: 50px 427.7px 0px 428px;
+  padding-top: 13px;
+  padding-bottom: 13px;  
+  text-align: center;
+
+  background-color: black;
+  font-size: 28px;
+
+  box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+}
+
+.game2 {
+  /* border: solid red 1px; */
+  display: flex;
+  width: 55%;
+  margin: 0px auto 70px auto;
+  height: 400px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.game2viddiv {
+  flex: 1;
+}
+
+.game2 video {
+  width: auto;
+  height: 400px;
+}
+
+.game2caption {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 60px;
+  font-size: 18px;
+}
+
+.game2caption h2 {
+  font-size: 20px;
+}
+
+.button   {
+  margin-bottom: 10px;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: black;
+
+  padding: 15px;
+  border-radius: 5px;
+
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+/* UPCOMING GAMES STYLING */
+
+
+
+
+
+
+
+
+/* UPCOMING GAMES STYLING (SIMILAR TO FIRST ONE)*/
+.game3 {
+  /* border: solid red 1px; */
+  display: flex;
+  width: 55%;
+  margin: 0px auto 70px auto;
+  height: 400px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.game3viddiv {
+  flex: 1;
+}
+
+.game3 video {
+  width: auto;
+  height: 400px;
+}
+
+.game3caption {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 60px;
+  font-size: 18px;
+}
+
+.game3caption h2 {
+  font-size: 20px;
+}
+
+.button   {
+  margin-bottom: 10px;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: black;
+
+  padding: 15px;
+  border-radius: 5px;
+
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+/* UPCOMING GAMES STYLING (SIMILAR TO FIRST ONE)*/
+
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLING */
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+  max-width: fit-content;
+}
+
+footer img {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-right: 40px;
+}
+
+.logofooter {
+  flex: 1;
+}
+
+footer copyright {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+/* FOOTER STYLING */
